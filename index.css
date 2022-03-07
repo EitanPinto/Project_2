@@ -1,0 +1,378 @@
+.parallax {
+  background-image: url(./assests/bitcoin-sans-internet.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-page-various-desgin{
+  color: white
+}
+
+.main-header-about-page{
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 60px;
+}
+
+.website-info-div-about-page{
+  text-align: center;
+  font-size: 17px;
+}
+
+.home-page-header-about-page{
+  margin-top: 20px;
+  text-decoration: underline;
+  text-align: center;
+}
+.developer-image{
+  width:110px;
+  height: 150px;
+}
+
+.developer-image-div{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.main-header-div{
+    text-align: center;
+    margin-top: 50px;
+      margin-bottom: 10px;
+      font-size: 6rem;
+      background: linear-gradient(to right, #ef5350, #f48fb1, #b48ff3, hsl(240, 6%, 97%), #aca9a9, #415853, #bb9595, #c5143a, #ff5722);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+.header{
+    font-family: 'Signika', sans-serif;
+    /* font-family: sans-serif, cursive; */
+    font-size: 50px;
+}
+.lower-header {
+    font-family: 'Signika', sans-serif;
+}
+
+/* loader! */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+input:checked + .slider{
+    background-color: #2e0223;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+.first-card-Div {
+    width: 18rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-right: 30px;
+    margin-left: 25px;
+    background-color:#212529 ;
+    color: white;
+}
+
+
+.first-inner-div {
+    display: inline-block;   
+    width: 165px;
+    height: 37px !important;
+}
+
+.second-inner-div {
+    display: inline-block;
+}
+
+#coinsCardsContent{
+    margin-top: 50px;
+}
+
+.third-inner-div {
+    text-align: center;
+}
+
+.forth-inner-div {
+    text-align: center;
+    background-color: #531645;
+    padding-top: 1px;
+    border-radius: 3px;
+}
+
+.div-parent-img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /* margin-left: 4px; */
+}
+
+.coin-image {
+    height: 170px;
+    width: 200px;
+}
+
+.div-parent-labels {
+    padding-bottom: 10px;
+}
+
+.more-info-button-div{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.main-navbar-div{
+margin-left: 50px;
+margin-right: 50px;
+margin-top: 50px;
+border-radius: 2px;
+}
+.main-navbar-div > .navbar {
+    border-radius: 3px;
+}
+
+
+
+.btn-primary, .btn-primary:hover, .btn-primary:visited {
+        background-color: #2e0223 !important;
+        border-color: #2e0223;
+}
+.btn-primary:focus, .btn-primary:active {
+    box-shadow: none !important;
+    border-color: #2e0223;
+}
+
+.btn-one,.btn-two,.btn-three, .btn-one-hover,.btn-two-hover,.btn-three-hover, .btn-one:visited, 
+.btn-two:visited, .btn-three:visited{
+    background-color: #610b4b !important;
+    border-color: #610b4b;
+    color:white;
+}
+.btn-one:focus, .btn-two:focus,.btn-three:focus,.btn-one:active,.btn-two:active,.btn-three:active {
+box-shadow: none !important;
+border-color: #610b4b;
+}
+
+/* .btn-one {
+margin-left: 86px;
+}
+.btn-two{
+margin-right: 2px;
+}
+.btn-three{
+margin-right: 354px;
+} */
+
+
+body
+{
+  margin:0;
+  padding:0;
+  background:#262626;
+}
+.ring
+{
+  margin-top: 80px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:150px;
+  height:150px;
+  background:transparent;
+  border:3px solid #3c3c3c;
+  border-radius:50%;
+  text-align:center;
+  line-height:150px;
+  font-family:sans-serif;
+  font-size:20px;
+  color:#2e0223;
+  letter-spacing:4px;
+  text-transform:uppercase;
+  text-shadow:0 0 10px #2e0223;
+  box-shadow:0 0 20px rgba(0,0,0,.5);
+}
+.ring:before
+{
+  content:'';
+  position:absolute;
+  top:-3px;
+  left:-3px;
+  width:100%;
+  height:100%;
+  border:3px solid transparent;
+  border-top:3px solid #2e0223;
+  border-right:3px solid #2e0223;
+  border-radius:50%;
+  animation:animateC 2s linear infinite;
+}
+.span-loader
+{
+  display:block;
+  position:absolute;
+  top:calc(50% - 2px);
+  left:50%;
+  width:50%;
+  height:4px;
+  background:transparent;
+  transform-origin:left;
+  animation:animate 2s linear infinite;
+}
+.span-loader:before
+{
+  content:'';
+  position:absolute;
+  width:16px;
+  height:16px;
+  border-radius:50%;
+  background:#580e45;
+  top:-6px;
+  right:-8px;
+  box-shadow:0 0 20px #580e45;
+}
+@keyframes animateC
+{
+  0%
+  {
+    transform:rotate(0deg);
+  }
+  100%
+  {
+    transform:rotate(360deg);
+  }
+}
+@keyframes animate
+{
+  0%
+  {
+    transform:rotate(45deg);
+  }
+  100%
+  {
+    transform:rotate(405deg);
+  }
+}
+
+.modal-header{
+  background-color: #610b4b;
+  color: white
+}
+
+.modal-body{
+  background-color:#474343;
+  color:white
+}
+.modal-footer{
+  background-color:#474343;
+}
+.bell-icon-div{
+margin-right: 20px;
+}
+#firstModalCoin {
+  display:inline-block;
+  width: 176px;
+  font-size: 28px;
+  vertical-align: bottom;
+  margin-left: 114px;
+}
+#secModalCoin {
+  display:inline-block;
+  width: 176px;
+  font-size: 28px;
+  vertical-align: bottom;
+  margin-left: 114px;
+}
+#thirdModalCoin {
+  display:inline-block;
+  width: 176px;
+  font-size: 28px;
+  vertical-align: bottom;
+  margin-left: 114px;
+}
+#fourthModalCoin {
+  display:inline-block;
+  width: 176px;
+  font-size: 28px;
+  vertical-align: bottom;
+  margin-left: 114px;
+}
+#fifthModalCoin {
+  display:inline-block;
+  width: 176px;
+  font-size: 28px;
+  vertical-align: bottom;
+  margin-left: 114px;
+}
+.swal-button {
+  background-color: #610b4b;
+  font-size: 12px;
+  border: 1px solid #22041a;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+}
+
+.bi-bell-fill {
+  font-size: 40px;
+}
+
+#lineChart{
+  height: 400px;
+  margin-bottom: 50px;
+}
+
